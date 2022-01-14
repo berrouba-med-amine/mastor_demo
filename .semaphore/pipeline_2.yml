@@ -18,7 +18,7 @@ blocks:
         - name: dockerhub
       prologue:
         commands:
-          - em-version python 3.8
+          - sem-version python 3.8
           - checkout
           - cache restore
           - mkdir -p .pip_cache
